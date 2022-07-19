@@ -1,0 +1,34 @@
+:root {
+  --green: #008744;
+  --yellow: #ffba00;
+  --gray: rgb(87, 87, 87);
+  --strongYellow: #fef10c;
+  --red: #b10e0e;
+  --blue: #288ad6;
+  --boxshadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown-link {
+  color: black;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

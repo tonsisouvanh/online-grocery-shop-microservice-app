@@ -1,0 +1,18 @@
+.slider-container {
+}
+
+.my-container {
+  display: flex;
+  justify-content: center;
+}
+
+.my-wrapper {
+  width: 100%;
+  max-width: 1024px;
+}
+
+.slide-img {
+  max-height: 30rem;
+
+  object-fit: fill !important;
+}

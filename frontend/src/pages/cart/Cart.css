@@ -1,0 +1,157 @@
+.cart a,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1rem;
+}
+.cart-header-text {
+  background-color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  box-shadow: var(--boxshadow);
+}
+
+.cart-items-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.cart-item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: var(--boxshadow);
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.cart-col-left {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.cart-item-img {
+  max-width: 4rem;
+}
+
+.cart-item-detail {
+}
+.cart-item-title {
+  margin-bottom: 0.3rem;
+}
+.cart-item-action {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.cart-item-action > p {
+  color: blue;
+  cursor: pointer;
+}
+.cart-item-addQty {
+  width: 8rem;
+  height: 2rem;
+  display: flex;
+}
+.cart-item-qtyInput {
+  width: 100%;
+  text-align: center;
+}
+.cart-item-qtyIncrs,
+.cart-item-qtyDecrs {
+  border: 1px solid gray;
+  width: 5rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(233, 233, 233);
+}
+
+.cart-col-right {
+  display: flex;
+  align-items: center;
+}
+.cart-item-price {
+  font-size: 1.3rem;
+  color: var(--red);
+}
+.cart-summary-price {
+  width: 100%;
+  text-align: end;
+}
+.cart-summary {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: var(--boxshadow);
+  padding: 1rem;
+  border-radius: 0.3rem;
+  gap: 1rem;
+}
+
+.cart-deleteCart-btn,
+.cart-checkout-btn {
+  width: min(90%, 400px);
+}
+/* .cart-deleteCart-btn{
+  background-color: #b10e0e;
+} */
+
+.checkout-wrapper {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  box-shadow: var(--boxshadow);
+  width: 50%;
+}
+
+.checkout-address-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.checkout-split {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.checkcout-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.checkcout-btn a {
+  border: none;
+}
+.checkcout-btn a:nth-child(2) {
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  background-color: transparent;
+}
+.checkout-ship-price {
+  color: var(--blue);
+}
+.checkout-address-wrapper span {
+  margin-right: 2rem;
+}
+.cart-total{
+  color: var(--red);
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}

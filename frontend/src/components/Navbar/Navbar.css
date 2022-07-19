@@ -1,0 +1,119 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0px 17px 11px -3px rgba(0, 0, 0, 0.1);
+}
+.navbar-bg-color {
+  background-color: var(--green);
+}
+.nav-dropdown-wrapper {
+  display: flex;
+  align-items: center;
+}
+.nav-dropdown-title {
+  color: white;
+}
+
+.navbar-logo {
+  max-width: 8rem;
+}
+
+.dropdown-item.dropdown-link {
+  color: black;
+}
+
+.link span {
+  font-size: 12px;
+}
+.nav-link-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  color: white;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu-burger {
+  color: white;
+}
+
+.login-link {
+  border: 3px solid var(--yellow);
+  /* margin-right: 1rem; */
+}
+.register-link {
+  border: 3px solid var(--yellow);
+  background-color: var(--yellow);
+  font-weight: bold;
+}
+.merchant-link {
+  text-decoration: underline;
+}
+.btn-search {
+  /* background-color: var(--yellow);
+  color: white; */
+  border: 2px solid white;
+}
+.navbar-right {
+  margin-left: 2rem;
+  gap: 0.5rem;
+}
+
+.fa-opencart {
+  color: var(--strongYellow);
+}
+
+.navbar-btn-search {
+  background-color: transparent !important;
+  border: 2px solid white;
+  color: white;
+  padding: 0 1rem;
+  border-radius: 5px;
+}
+
+.link-login {
+  border: 2px solid var(--yellow);
+  background-color: transparent;
+  margin: 0 1rem;
+  min-width: 7rem;
+  min-height: 2.4rem;
+}
+
+.link-hover:hover {
+  color: white;
+}
+
+.link-register {
+  border: 2px solid var(--yellow);
+  background-color: var(--yellow);
+  padding: 0.3rem 1rem;
+  min-width: 7rem;
+  min-height: 2.4rem;
+}
+.navbar-icon {
+  margin-right: 0.4rem;
+}
+.navbar-logo-container {
+  display: flex;
+  align-items: center;
+}
+.shopping-icon{
+  position: relative;
+}
+
+.badget{
+  background-color: var(--strongYellow);
+  position: absolute;
+  padding: 3px;
+  font-size: 9px !important;
+  color: black;
+  border-radius: 10px;
+  top: -10px;
+  right: -5px;
+}
